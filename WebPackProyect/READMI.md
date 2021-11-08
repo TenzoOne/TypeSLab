@@ -10,5 +10,5 @@ on package.json add 'build' command and remove all js archives
 npm run build
 npm start
 
-
-
+to add plugins 
+npm install --save-dev clean-webpack-plugin
