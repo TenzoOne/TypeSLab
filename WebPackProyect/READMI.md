@@ -8,7 +8,7 @@ add entry property to webpack config and oputput
 on package.json add 'build' command and remove all js archives
 
 npm run build
-
+npm start
 
 
 
