@@ -1,10 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import TodoList from "./Components/TodoList";
+import NewTodo from "./Components/NewTodo";
 
 function App() {
+  const todos = [{ id: "t1", text: "finish the course" }];
+
   return (
-    <div className="App">
-      
+    <div>
+      <NewTodo />
+      <TodoList items={todos} />
     </div>
   );
 }
